@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+p, a {
+    font-family: 'Neuton', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    display: flex; 
+    height: 100vh; 
+    margin: 8px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row; 
+    margin: auto; 
+    width: 70vw; 
+    min-width: 800px;
+}
+
+.titulo {
+    text-align: center; 
+    flex: 1 1 0%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.titulo1 {
+    margin: 0;
+}
+
+.subtexto {
+    margin: 0 auto;
+    max-width: 20em;
+}
+
+.forms {
+    text-align: center; 
+    flex: 0.6 1 0%;
+}
+
+.input-senha {
+    padding: 0.3em;
+    margin: 0.5em;
+}
+
+.botao-inicio {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.senha {
+    margin: 0px auto;
+}
